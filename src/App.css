@@ -1,0 +1,215 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html, body, #root, .contain {
+    width: 100%;
+    height: 100%;
+    background-color: #2C3031;
+}
+
+/******************LAYOUT COMPONENTS*************************/
+
+#Header {
+    width: 100%;
+    height: 50%;
+    background-image: url(./Image/BanniereEZ.jpg);
+    background-size: 100% 100%;
+    background-color: #2C3031;
+    display: flex;
+    justify-content: space-between;
+}
+
+#Generate {
+    width: 100%;
+    height: 25%;
+    margin-bottom: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#Footer {
+    width: 100%;
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-between;
+}
+
+#LinkContactAbout {
+    display: flex;
+}
+
+#Social {
+    width: 15%;
+    display: flex;
+}
+
+#AboutContent {
+    width: 100%;
+    margin-bottom: 50px;
+    display: flex;
+    align-items: center;
+}
+
+#Form {
+    width: 100%;
+    display: flex;
+}
+
+/******************LAYOUT PICTURE IMAGE LOGO TEXT*************************/
+
+#logo {
+    margin: 25px;
+    width: 7.5%;
+    height: 23%;
+}
+
+.logo {
+    width: 100%;
+}
+
+.logo:hover {
+    transform: scale(1.2);
+    transition-duration: 0.5s;
+}
+
+.imageAbout, .imageQuestion {
+    width: 20%;
+    margin: 25px;
+    margin-left: 3%;
+}
+
+.layoutText {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.titleContent {
+    color: #0193F1;
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.content {
+    color: #FFFFFF;
+    font-size: 15px;
+    text-align: center;
+}
+
+.form {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: #0193F1;
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+}
+
+/******************BUTTON*************************/
+
+.btnLogin, .otherBtnHome {
+    margin: 25px;
+    height: 15%;
+    background-color: #0193F1;
+    color: #FFFFFF;
+    border-color: #FFFFFF;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+.btnGenerate {
+    margin: 25px;
+    width: 10%;
+    height: 30%;
+    background-color: #0193F1;
+    color: #FFFFFF;
+    border-color: #FFFFFF;
+    border-radius: 10px;
+}
+
+.btnSubmitContact {
+    margin: 25px;
+    width: 150%;
+    height: 50px;
+    background-color: #0193F1;
+    color: #FFFFFF;
+    border-color: #FFFFFF;
+    border-radius: 10px;
+}
+
+.btnLogin:hover, .otherBtnHome:hover, .btnGenerate:hover, .btnSubmitContact {
+    background-color: #0191f1d0;
+}
+
+.inputGenerate {
+    width: 50%;
+    height: 40%;
+    padding-left: 20px;
+    border-radius: 10px;
+}
+
+.inputMail {
+    width: 300%;
+    height: 50px;
+    padding-left: 20px;
+    border-radius: 10px;
+    margin: 25px;
+}
+
+.inputMessage {
+    width: 300%;
+    height: 200px;
+    padding-left: 20px;
+    border-radius: 10px;
+}
+
+/******************LINK*************************/
+
+#Footer li {
+    color: #FFFFFF;
+    list-style: none;
+}
+
+#Footer li:hover {
+    color: #0193F1;
+}
+
+.linkFooter {
+    font-size: 20px;
+    font-weight: bold;
+    margin: 15px;
+}
+
+#FB {
+    margin: 15px;
+    width: 30%;
+}
+
+.FB {
+    width: 100%;
+}
+
+.FB:hover {
+    transform: scale(1.2);
+    transition-duration: 0.5s;
+}
+
+#Twitter {
+    margin: 15px;
+    width: 30%;
+}
+
+.twitter {
+    width: 100%;
+}
+
+.twitter:hover {
+    transform: scale(1.2);
+    transition-duration: 0.5s;
+}
